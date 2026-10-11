@@ -31,7 +31,7 @@ ant = nd.binary_opening(ant, iterations=1)
 ant = nd.gaussian_filter(nd.binary_dilation(ant, iterations=1).astype(np.float32), 1.2)
 # faint teal halo: let the surrounding pattern fade out softly around the disc
 rd = np.hypot(xx-368, yy-428)
-halo = 0.5*np.clip(1 - (rd-310)/100, 0, 1)**1.6
+halo = 0.72*np.clip(1 - (rd-310)/150, 0, 1)**1.3
 alpha = np.clip(np.maximum.reduce([disc, medal, beam, body, ant, halo]), 0, 1)
 # very dark gaps become see-through so the black shirt shows
 alpha *= np.clip((a.max(2) - 12)/25, 0, 1)**0.7*0.6 + 0.4*(a.max(2) > 12)
