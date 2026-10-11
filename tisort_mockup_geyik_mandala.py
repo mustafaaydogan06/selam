@@ -29,7 +29,10 @@ keep = [i for i in range(1, n+1) if sizes[i-1] > 400 and i in touch]
 ant = np.isin(lab, keep) & (yy < 420)
 ant = nd.binary_opening(ant, iterations=1)
 ant = nd.gaussian_filter(nd.binary_dilation(ant, iterations=1).astype(np.float32), 1.2)
-alpha = np.clip(np.maximum.reduce([disc, medal, beam, body, ant]), 0, 1)
+# faint teal halo: let the surrounding pattern fade out softly around the disc
+rd = np.hypot(xx-368, yy-428)
+halo = 0.5*np.clip(1 - (rd-310)/100, 0, 1)**1.6
+alpha = np.clip(np.maximum.reduce([disc, medal, beam, body, ant, halo]), 0, 1)
 # very dark gaps become see-through so the black shirt shows
 alpha *= np.clip((a.max(2) - 12)/25, 0, 1)**0.7*0.6 + 0.4*(a.max(2) > 12)
 e = np.clip(np.minimum.reduce([xx, w-1-xx, yy, h-1-yy])/(0.04*w), 0, 1)
