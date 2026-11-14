@@ -169,6 +169,8 @@ Generallerin yargılandığı bazı dosyalarda haberleşme kısıtlaması hiç u
 
 Müşteki vekiline iki buçuk saat, savunmaya kırk beş dakika verildi.
 
+Atatürk Havalimanı'ndaki erleri düşünün. Bu erler cezaevinden çıkarıldıktan sonra üç yıl boyunca aynı birliklerde, ellerinde silahla devlete hizmet ettiler. Sonra sözleşmeleri feshedildi ve “darbeci” oldukları için 12,5 yıl cezaları onandı. Aynı devlet, aynı insanlar hakkında üç yıl boyunca “güvenilir asker” demiş, ardından “darbeci” demiş. İki ölçüden hangisi doğruydu?
+
 Bunların her biri tek başına küçük görünebilir. Yan yana koyduğunuzda ise bir sistem görürsünüz: **Bir grup için ayrı bir hukuk.**
 
 Eşit ölçü, ceza hukukunda en başta **eşit ispat standardı** demektir. Yargıtay Ceza Genel Kurulu bunu yıllar önce şöyle yazdı: *“Ceza mahkûmiyeti, delillerin bir kısmına dayanılarak ve diğer bir kısmı göz ardı edilerek ulaşılan ihtimali kanaate değil, kesin ve açık bir ispata dayanmalıdır.”* Bu cümle sıradan bir hırsızlık davasında geçerliyse, ağırlaştırılmış müebbet istenen bir davada çok daha fazla geçerlidir. Suçlamanın ağırlığı ispat yükünü hafifletmez; tam tersine ağırlaştırır.
